@@ -1,6 +1,21 @@
 # Dungeon-Crusader
 
-Start run.bat to play (run.py not working currently)
+Start 
+```shell
+run.bat
+```
+
+or
+
+
+```shell
+pip3 install -r requirements.txt 
+python3 modules/main.py
+```
+
+
+![image](https://github.com/humbertodias/pygame-dungeon-crusader/assets/9255997/5be6593b-b4d2-4681-8b3d-cd858b325a78)
+
 
 Required modules: pygame (https://www.pygame.org/wiki/GettingStarted)
 
@@ -28,16 +43,7 @@ Requires python 3.x
 | K | kill all enemies on the screen |
 
 
-Install
-```
-pip3 install -r requirements.txt 
-```
 
-Run
-
-```
-python3 modules/main.py
-```
 
 Format
 ```
