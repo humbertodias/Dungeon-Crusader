@@ -4,13 +4,13 @@ TO DO:
 - key logic
 - key binding function
 - Items: Lamp (place a fire sprite that damages enemies & light torches)
-- wall rects größer machen, damit gegner nicht aus dem Raum clippen.
+- wall rects grÏ†Î¯er machen, damit gegner nicht aus dem Raum clippen.
 - Gegner Vector movement wandering, flee, avoid etc
-- Fledermäuse nur in dunklen Räumen, wachen auf wenn Licht entzündet wird
+- FledermÎ´use nur in dunklen RÎ´umen, wachen auf wenn Licht entzÏŒndet wird
 - Weapon cooldown so anpassen, dass er erst beginnt, nachdem die Animation vorbei ist
   Am Ende der animation trigger
 - Animation und Weapon cooldown 2 timer
-- Händler
+- HÎ´ndler
 - Start / Game Over screen
 - pushing animation
 - Items (bomben etc) haben Kollisionsabfrage und schieben sich gegenseitig weg
@@ -18,7 +18,7 @@ TO DO:
 
 Bekannte Bugs:
 - Gegner clippen durch walls
-- gegner fallen nicht in Löcher
+- gegner fallen nicht in LÏ†cher
 
 
 ** done **
@@ -26,7 +26,7 @@ Bekannte Bugs:
 - neues tileset (8x8 tiles)
 - st.TILESIZE und st.TILESIZE_SMALL
 - Room transitions kein while loop, sondern animation
-- tileRoom function löscht keine objecte, sondern setzt welche wo keine türen sind
+- tileRoom function lÏ†scht keine objecte, sondern setzt welche wo keine tÏŒren sind
 - draw layers
 - Die gegner pos restricten
 - spawn point an den anfang des Raumes setzen
@@ -37,7 +37,7 @@ Bekannte Bugs:
 - bei horizontalem Raumwechsel clipping fehler beheben
 - Items auf A und B legen
 - inventar layout
-- parent class für Schwerter, Stäbe etc
+- parent class fÏŒr Schwerter, StÎ´be etc
 - room_current as class variable of Dungeon
 - save map img as png
 - maxspeed bei Gegnern funktioniert nicht
@@ -45,8 +45,8 @@ Bekannte Bugs:
 - mana anzeige reduziert sich um 3 pixel
 - items verschwinden nach einiger zeit
 - Gegner Sterbe animationen
-- Herzen/Magie füllen sich nicht auf einmal, sondern in einer kurzen Animation
-- förderbänder
+- Herzen/Magie fÏŒllen sich nicht auf einmal, sondern in einer kurzen Animation
+- fÏ†rderbÎ´nder
 - wirklich alle blit funktionen in das Draw event packen
 - Sprite factory mit **kwargs 
 - enemy stats, drop rates etc in eigene Datei

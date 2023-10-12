@@ -1,4 +1,5 @@
 # Dungeon-Crusader
+
 Start run.bat to play (run.py not working currently)
 
 Required modules: pygame (https://www.pygame.org/wiki/GettingStarted)
@@ -16,6 +17,7 @@ Requires python 3.x
 | F6 | quicksave (might crash the game!)|
 | F9| quickload |
 | H | debug mode |
+
 ### Controls in debug mode:
 | key | action|
 |-----|-------|
@@ -39,7 +41,7 @@ python3 modules/main.py
 
 Format
 ```
-pip install yapf
+pip3 install yapf
 yapf -i game.py
 ```
 
